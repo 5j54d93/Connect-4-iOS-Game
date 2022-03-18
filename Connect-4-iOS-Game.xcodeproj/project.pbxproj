@@ -11,6 +11,9 @@
 		9CD8AC6A27E494A5002DE6CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8AC6927E494A5002DE6CB /* ContentView.swift */; };
 		9CD8AC6C27E494A6002DE6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD8AC6B27E494A6002DE6CB /* Assets.xcassets */; };
 		9CD8AC6F27E494A6002DE6CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9CD8AC6E27E494A6002DE6CB /* Preview Assets.xcassets */; };
+		9CD8AC7C27E49ECD002DE6CB /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8AC7B27E49ECD002DE6CB /* ColorExtension.swift */; };
+		9CD8AC7E27E4FD5B002DE6CB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8AC7D27E4FD5B002DE6CB /* SafariView.swift */; };
+		9CD8AC8027E4FD7C002DE6CB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CD8AC7F27E4FD7C002DE6CB /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +22,10 @@
 		9CD8AC6927E494A5002DE6CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9CD8AC6B27E494A6002DE6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9CD8AC6E27E494A6002DE6CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9CD8AC7B27E49ECD002DE6CB /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
+		9CD8AC7D27E4FD5B002DE6CB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		9CD8AC7F27E4FD7C002DE6CB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		9CD8AC8127E50400002DE6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +58,12 @@
 		9CD8AC6627E494A5002DE6CB /* Connect-4-iOS-Game */ = {
 			isa = PBXGroup;
 			children = (
+				9CD8AC8127E50400002DE6CB /* Info.plist */,
 				9CD8AC6727E494A5002DE6CB /* Connect_4_iOS_GameApp.swift */,
 				9CD8AC6927E494A5002DE6CB /* ContentView.swift */,
+				9CD8AC7F27E4FD7C002DE6CB /* SettingsView.swift */,
+				9CD8AC7D27E4FD5B002DE6CB /* SafariView.swift */,
+				9CD8AC7B27E49ECD002DE6CB /* ColorExtension.swift */,
 				9CD8AC6B27E494A6002DE6CB /* Assets.xcassets */,
 				9CD8AC6D27E494A6002DE6CB /* Preview Content */,
 			);
@@ -137,8 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CD8AC8027E4FD7C002DE6CB /* SettingsView.swift in Sources */,
+				9CD8AC7E27E4FD5B002DE6CB /* SafariView.swift in Sources */,
 				9CD8AC6A27E494A5002DE6CB /* ContentView.swift in Sources */,
 				9CD8AC6827E494A5002DE6CB /* Connect_4_iOS_GameApp.swift in Sources */,
+				9CD8AC7C27E49ECD002DE6CB /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,9 +284,10 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Connect-4-iOS-Game/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Connect 4";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -299,9 +314,10 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Connect-4-iOS-Game/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Connect 4";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
