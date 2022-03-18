@@ -7,7 +7,7 @@
 
 > **iOS**：iPhone 13 Pro Max
 
-<img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/GameStart.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Win.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Lose.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/SettingView.png" width='25%' height='100%'/>
+<img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Win.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Lose.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Tie.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Settings.png" width='25%' height='100%'/>
 
 ## How To Play
 
