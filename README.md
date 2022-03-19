@@ -6,6 +6,13 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Connect-4-iOS-Game)
 ![Platform](https://img.shields.io/badge/platform-iOS｜iPadOS｜macOS-lightgrey)
 
+Connect 4 iOS Game designed with [**SwiftUI**](https://developer.apple.com/xcode/swiftui/) that could：
+
+- play with a medium level computer
+- store scores in `@AppStorage`
+- restart at any time
+- change piece color with `ColorPicker` and store in `@AppStorage`
+
 > **iOS**：iPhone 13 Pro Max
 
 <img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Win.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Lose.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Tie.png" width='25%' height='100%'/><img src="https://github.com/5j54d93/Connect-4-iOS-Game/blob/main/.github/assets/Settings.png" width='25%' height='100%'/>
