@@ -64,7 +64,7 @@ struct SettingsView: View {
         .listStyle(.grouped)
         .navigationTitle("Settings")
         .fullScreenCover(isPresented: $showSafari) {
-            SafariView(url: URL(string: "https://github.com/5j54d93")!)
+            SafariView(url: URL(string: "https://github.com/5j54d93/Connect-4-iOS-Game")!)
         }
     }
 }
