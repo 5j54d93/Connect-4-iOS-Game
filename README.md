@@ -6,7 +6,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/Connect-4-iOS-Game)
 ![Platform](https://img.shields.io/badge/platform-iOS｜iPadOS｜macOS-lightgrey)
 
-Connect 4 iOS Game designed with [**SwiftUI**](https://developer.apple.com/xcode/swiftui/) that could：
+[**Connect 4 iOS Game**](https://github.com/5j54d93/Connect-4-iOS-Game) designed with [**SwiftUI**](https://developer.apple.com/xcode/swiftui/) that could：
 
 - play with a medium level computer
 - store scores in `@AppStorage`
